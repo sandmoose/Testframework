@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <groups>
+      <run>
+        <include name="check"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.ClassA">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.test.ClassA -->
+      <class name="com.test.ClassB">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.test.ClassB -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
